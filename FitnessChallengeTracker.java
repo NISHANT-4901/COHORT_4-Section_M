@@ -1,3 +1,4 @@
+import java.nio.channels.Pipe.SourceChannel;
 import java.util.Scanner;
 
 public class FitnessChallengeTracker {
@@ -17,6 +18,7 @@ public class FitnessChallengeTracker {
         System.out.println("Data from user");
         for (int i : pushUp)
             System.out.print(i + " ");
+        System.out.println();
 
         int totalSum = 0;
         int count = 0;
